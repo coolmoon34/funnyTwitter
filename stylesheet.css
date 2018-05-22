@@ -1,0 +1,21 @@
+.settings {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-column-gap: 2%;
+  grid-auto-columns: 23.5%;
+  grid-auto-rows: auto;
+  grid-template-areas: "header header header header" ". . . ." "footer footer footer footer";
+}
+
+.rounded-corners {
+    border-radius: 25px;
+    padding: 20px;  
+}
